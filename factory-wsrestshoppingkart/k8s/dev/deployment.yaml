@@ -1,0 +1,30 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: wsrestgestioncarrito-deployment
+  namespace: dev
+  labels:
+    app: wsrestgestioncarrito
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wsrestgestioncarrito
+  template:
+    metadata:
+      labels:
+        app: wsrestgestioncarrito
+    spec:
+      containers:
+        - name: wsrestgestioncarrito
+          image: 638238666448.dkr.ecr.us-east-1.amazonaws.com/ws-rest-gestion-carrito:latest
+          resources:
+            limits:
+              memory: "500Mi"
+              cpu: "200m"
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 18080
+          envFrom:
+          - configMapRef:
+              name: wsrestgestioncarrito-configmap

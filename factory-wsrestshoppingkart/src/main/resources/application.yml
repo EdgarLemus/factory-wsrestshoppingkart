@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: wsRestGestionCarrito
+server:
+  port: 18080
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${POC_EUREKA_URI}
+  instance:
+    preferIpAddress: true
+    status-page-url-path: /v2/api-docs/
+    health-check-url-path: /gestioncarrito/health
+    virtual-host-name: SBBOGLAPPROJO7
+    metadata-map:
+      app-owner: Sophos Solutions
+      description: Servicio que expone funcionalidades para la gestion del carrito
+      
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:9191/oauth/check_token
+    client:
+      client-id: mobile
+      client-secret: pin

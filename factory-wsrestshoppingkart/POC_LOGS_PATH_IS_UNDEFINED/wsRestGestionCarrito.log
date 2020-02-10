@@ -1,0 +1,20 @@
+2020-02-02 22:28:28,264 INFO org.springframework.boot.StartupInfoLogger [main] Starting WsRestGestionCarritoApplication on SBBOGLAPPROJB15 with PID 7612 (D:\Repositorios\PoC_2\java-wsrestgestioncarrito\target\classes started by juan.bonillap in D:\Repositorios\PoC_2\java-wsrestgestioncarrito)
+2020-02-02 22:28:28,269 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-02-02 22:28:29,599 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-02 22:28:29,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-02 22:28:29,738 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102ms. Found 1 repository interfaces.
+2020-02-02 22:28:32,354 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 18080 (http)
+2020-02-02 22:28:32,372 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-18080"]
+2020-02-02 22:28:32,386 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-02-02 22:28:32,386 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-02-02 22:28:32,407 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Terraform;D:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_231\\lib;D:\Kubectl;C:\Users\juan.bonillap\AppData\Local\Microsoft\WindowsApps;;C:\Users\juan.bonillap\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\juan.bonillap\AppData\Roaming\npm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\Spring Tools\sts-4.5.0.RELEASE;;.]
+2020-02-02 22:28:32,648 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-02-02 22:28:32,649 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4291 ms
+2020-02-02 22:28:33,036 INFO com.sophos.poc.wsrestgestioncarrito.cache.RedisJavaConfiguration [main] Redis connection factory: localhost:6379
+2020-02-02 22:28:33,934 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 22:28:34,122 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-02 22:28:34,151 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-02 22:28:34,163 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-02 22:28:34,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-18080"]
+2020-02-02 22:28:34,454 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 18080 (http) with context path ''
+2020-02-02 22:28:34,456 INFO org.springframework.boot.StartupInfoLogger [main] Started WsRestGestionCarritoApplication in 7.108 seconds (JVM running for 7.622)

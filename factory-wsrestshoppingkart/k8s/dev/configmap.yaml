@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wsrestgestioncarrito-configmap
+  namespace: dev
+data:
+  POC_REDIS_HOST: 'redis-master'
+  POC_REDIS_PORT: '6379'
+  POC_REDIS_PASS: 'Qr7XDpcMWp'
